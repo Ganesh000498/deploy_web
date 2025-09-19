@@ -1,12 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Simple Web App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Simple Web App</title>
+  <style>
+    /* Background gradient */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.2em;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin-bottom: 1.5em;
+      font-style: italic;
+      color: #ffdd57;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    }
+
+    button {
+      background-color: #ff5e57;
+      border: none;
+      padding: 15px 40px;
+      font-size: 1.2rem;
+      color: white;
+      font-weight: bold;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(255, 94, 87, 0.6);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #ff2e2b;
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(255, 46, 43, 0.8);
+    }
+
+    button:focus {
+      outline: none;
+      box-shadow: 0 0 10px 3px #ff5e57;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello from Azure App Service!</h1>
-    <h2>Ganesh, creating a static web and deploying</h2>
-    <button>success</button>
+  <h1>Hello from Azure App Service!</h1>
+  <h2>Ganesh, creating a static web and deploying</h2>
+  <button>Success</button>
 </body>
 </html>
+
+
 
